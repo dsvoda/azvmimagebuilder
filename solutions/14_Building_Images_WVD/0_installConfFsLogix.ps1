@@ -17,5 +17,4 @@ write-host 'AIB Customization: Download Fslogix installer finished'
 write-host 'AIB Customization: Start Fslogix installer'
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine -Force
 .\\FSLogixSetup.ps1 -ProfilePath \\wvdSMB\wvd -Verbose
-exit 0
 write-host 'AIB Customization: Finished Fslogix installer' 
