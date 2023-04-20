@@ -44,7 +44,7 @@
  
  # run script
  # .\optimize -WindowsVersion 2004 -Verbose
-  .\Windows_VDOT.ps1 -Optimizations All -AdvancedOptimizations All -Verbose -AcceptEula
+  .\Windows_VDOT.ps1 -Optimizations All -Verbose -AcceptEula
   write-host 'AIB Customization: Finished OS Optimizations script'
  
  
