@@ -44,7 +44,7 @@
  
  # run script
  # .\optimize -WindowsVersion 2004 -Verbose
-  .\Windows_VDOT.ps1 -Optimizations 'WindowsMediaPlayer','ScheduledTasks','DefaultUserSettings','Autologgers','Services','NetworkOptimizations','Edge','DiskCleanup' -Verbose -AcceptEula
+  .\Windows_VDOT.ps1 -Optimizations WindowsMediaPlayer, ScheduledTasks, DefaultUserSettings, Autologgers, Services, NetworkOptimizations, DiskCleanup -AdvancedOptimizations RemoveLegacyIE, RemoveOneDrive -Verbose -AcceptEula
   write-host 'AIB Customization: Finished OS Optimizations script'
  
  
